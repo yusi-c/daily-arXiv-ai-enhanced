@@ -14,13 +14,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-# added
-    - name: Ecoh inputs
-      run: |
-        echo "CATEGORIES=${{ vars.CATEGORIES }}"
-        echo "LANGUAGE=${{ vars.LANGUAGE }}"
-# end added 
-
     steps:
     - uses: actions/checkout@v4
 
