@@ -1,7 +1,8 @@
+import os
+
 arxiv:
   categories = os.getenv("CATEGORIES", "cs.CV,cs.GR,cs.CL").split(",")
   # 文章类型
-
 
 llm:
   model_name: 'deepseek-chat'  # 使用的LLM模型
